@@ -128,3 +128,5 @@ The SDK supports three callback mechanisms (whichever fires first wins):
 ```bash
 flutter test
 ```
+
+echo "trigger deploy" >> README.md
