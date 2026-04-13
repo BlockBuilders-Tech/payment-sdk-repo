@@ -1,37 +1,36 @@
-# ❌ Ignore everything
+# Ignore everything
 *
 
-# ✅ Allow only required files
+# Allow published AAR Maven repo only
 !repo/
 !repo/**
 
+# Keep basic repo files
 !README.md
 !.gitignore
 
-
-# -------------------------
-# (Optional safety ignores)
-# -------------------------
-
+# macOS
 .DS_Store
+Icon?
+
+# Python / temp
+*.pyc
+*.swp
+*.log
+
+# Flutter / IDE / generated
 .dart_tool/
 .pub/
 .idea/
 .vagrant/
 .svn/
-*.swp
-*.pyc
-*.log
-Icon?
-
-# Flutter / build leftovers
 build/
 .android/
 .ios/
 .flutter-plugins
 .flutter-plugins-dependencies
 
-# Xcode / macOS
+# Xcode
 DerivedData/
 xcuserdata
 *.pbxuser
@@ -39,6 +38,6 @@ xcuserdata
 *.mode2v3
 *.perspectivev3
 
-# Obfuscation / symbols
+# Symbols / maps
 app.*.symbols
 app.*.map.json
