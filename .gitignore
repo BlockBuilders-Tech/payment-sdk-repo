@@ -2,8 +2,8 @@
 *
 
 # ✅ Allow only required files
-!repo/
-!repo/**
+#!repo/
+#!repo/**
 
 !README.md
 !.gitignore
