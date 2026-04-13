@@ -1,0 +1,44 @@
+# ❌ Ignore everything
+*
+
+# ✅ Allow only required files
+!repo/
+!repo/**
+
+!README.md
+!.gitignore
+
+
+# -------------------------
+# (Optional safety ignores)
+# -------------------------
+
+.DS_Store
+.dart_tool/
+.pub/
+.idea/
+.vagrant/
+.svn/
+*.swp
+*.pyc
+*.log
+Icon?
+
+# Flutter / build leftovers
+build/
+.android/
+.ios/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Xcode / macOS
+DerivedData/
+xcuserdata
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Obfuscation / symbols
+app.*.symbols
+app.*.map.json
