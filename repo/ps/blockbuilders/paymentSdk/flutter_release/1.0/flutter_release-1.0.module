@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ps.blockbuilders.paymentSdk",
+    "module": "flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 4181391,
+          "sha512": "34f7fcdc777d6c6c322573c3b20eb90056c079717683da71ebf4b878f379d2f588248cb41412630744420b73ee8ceef4883f2ac02db9ab824b59ac1d192f5a6d",
+          "sha256": "9befa1b6f33a41a71d1dde1748304dec8049ba69238dea9a99f55bfd823957aa",
+          "sha1": "ee4b0db992e497809d205abbd7d1bd1d614c6be8",
+          "md5": "cb83ea1c9f4e2203cf12c7189c7d3353"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 4181391,
+          "sha512": "34f7fcdc777d6c6c322573c3b20eb90056c079717683da71ebf4b878f379d2f588248cb41412630744420b73ee8ceef4883f2ac02db9ab824b59ac1d192f5a6d",
+          "sha256": "9befa1b6f33a41a71d1dde1748304dec8049ba69238dea9a99f55bfd823957aa",
+          "sha1": "ee4b0db992e497809d205abbd7d1bd1d614c6be8",
+          "md5": "cb83ea1c9f4e2203cf12c7189c7d3353"
+        }
+      ]
+    }
+  ]
+}

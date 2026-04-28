@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ps.blockbuilders.paymentSdk",
+    "module": "flutter_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.aar",
+          "url": "flutter_profile-1.0.aar",
+          "size": 6558597,
+          "sha512": "98943fe35ea09117b2dbca1d91e1fb89501b3d55d5580c624d935b649c604bc872f811f795c11217c52ed6afb81d17e01c2e7746e0b8dd0682d7bcf83c6c1a7e",
+          "sha256": "6861015b40eae1f8a134a1bf7a12157b361dca151949dc705ac1693315a98dca",
+          "sha1": "4202ba2292d8d8bebc13733bbbf469b59a88fa93",
+          "md5": "97d1ed894ea37c91f44038cb7e9539df"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-2e4ba9c6fb499ccd4e81420543783cc7267ae406"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.aar",
+          "url": "flutter_profile-1.0.aar",
+          "size": 6558597,
+          "sha512": "98943fe35ea09117b2dbca1d91e1fb89501b3d55d5580c624d935b649c604bc872f811f795c11217c52ed6afb81d17e01c2e7746e0b8dd0682d7bcf83c6c1a7e",
+          "sha256": "6861015b40eae1f8a134a1bf7a12157b361dca151949dc705ac1693315a98dca",
+          "sha1": "4202ba2292d8d8bebc13733bbbf469b59a88fa93",
+          "md5": "97d1ed894ea37c91f44038cb7e9539df"
+        }
+      ]
+    }
+  ]
+}
