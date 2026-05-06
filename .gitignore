@@ -1,44 +1,104 @@
-# Ignore everything
-*
+## Ignore everything
+#*
+#
+## Allow published AAR Maven repo only
+#!repo/
+#!repo/**
+#
+## Keep basic repo files
+#!README.md
+#!.gitignore
+#
+## macOS
+#.DS_Store
+#Icon?
+#
+## Python / temp
+#*.pyc
+#*.swp
+#*.log
+#
+## Flutter / IDE / generated
+#.dart_tool/
+#.pub/
+#.idea/
+#.vagrant/
+#.svn/
+#build/
+#.android/
+#.ios/
+#.flutter-plugins
+#.flutter-plugins-dependencies
+#
+## Xcode
+#DerivedData/
+#xcuserdata
+#*.pbxuser
+#*.mode1v3
+#*.mode2v3
+#*.perspectivev3
+#
+## Symbols / maps
+#app.*.symbols
+#app.*.map.json
+#
 
-# Allow published AAR Maven repo only
-!repo/
-!repo/**
+# Ignore everything by default
+*
 
 # Keep basic repo files
 !README.md
 !.gitignore
+!codemagic.yaml
+!pubspec.yaml
+!pubspec.lock
+!analysis_options.yaml
+!.metadata
 
-# macOS
-.DS_Store
-Icon?
+# Keep Flutter source
+!lib/
+!lib/**
+!test/
+!test/**
 
-# Python / temp
-*.pyc
-*.swp
-*.log
+# Keep platform source needed for builds
+!ios/
+!ios/**
+!android/
+!android/**
 
-# Flutter / IDE / generated
+# Keep published Android AAR Maven repo if needed
+!repo/
+!repo/**
+
+# Ignore generated/local files
 .dart_tool/
 .pub/
-.idea/
-.vagrant/
-.svn/
 build/
 .android/
 .ios/
 .flutter-plugins
 .flutter-plugins-dependencies
 
-# Xcode
+# IDE files
+.idea/
+*.iml
+
+# macOS/temp
+.DS_Store
+Icon?
+*.pyc
+*.swp
+*.log
+
+# Xcode local files
 DerivedData/
-xcuserdata
+xcuserdata/
 *.pbxuser
 *.mode1v3
 *.mode2v3
 *.perspectivev3
 
-# Symbols / maps
+# Flutter symbols/maps
 app.*.symbols
 app.*.map.json
-

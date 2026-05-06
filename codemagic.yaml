@@ -1,0 +1,35 @@
+workflows:
+  build-ios-plugin:
+    name: Build iOS Plugin XCFramework
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+
+    environment:
+      flutter: stable
+      xcode: latest
+
+    scripts:
+      - name: Show Flutter version
+        script: |
+          flutter --version
+
+      - name: Clean project
+        script: |
+          flutter clean
+
+      - name: Get packages
+        script: |
+          flutter pub get
+
+      - name: Build iOS XCFramework
+        script: |
+          flutter build ios-framework --release --xcframework
+
+      - name: Zip iOS output
+        script: |
+          cd build/ios/framework
+          zip -r payment-sdk-ios-xcframework.zip Release
+
+    artifacts:
+      - build/ios/framework/payment-sdk-ios-xcframework.zip
+      - build/ios/framework/Release/*.xcframework
